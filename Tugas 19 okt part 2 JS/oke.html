@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gunting-Batu-Kertas</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Gunting-Batu-Kertas</h1>
+        <div class="game">
+            <div class="player">
+                <h2>Player</h2>
+                <img src="gunting.jpg" alt="Gunting" onclick="choose('gunting')">
+                <img src="batu.jpg" alt="Batu" onclick="choose('batu')">
+                <img src="kertas.jpg" alt="Kertas" onclick="choose('kertas')">
+            </div>
+            <div class="computer">
+                <h2>Computer</h2>
+                <img src="" alt="Hasil" id="hasil">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

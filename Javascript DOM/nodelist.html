@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nodelist</title>
+</head>
+<body>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <script>
+        let htmlCollection = document.getElementsByTagName("li");
+        let nodelist = document.querySelectorAll("li");
+
+        console.log(htmlCollection);
+        console.log(nodelist)
+    </script>
+</body>
+</html>
